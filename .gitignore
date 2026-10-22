@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Runtime output
+generated/
+generated_fresh/
+logs_v2/
+*_results/
+*_err.txt
+*_out.txt
+*.log
+
+# Learned memory stores (rebuilt at runtime)
+memory/*.json
+memory/*.npy
+memory/backup_trained/
